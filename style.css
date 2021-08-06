@@ -1,0 +1,31 @@
+/* INITIAL SETUP */
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+
+:root {
+    /* COLORS */
+    /* Primary */
+    --primary-red: hsl(356, 100%, 66%);
+    --primary-light-red: hsl(355, 100%, 74%);
+    --primary-dark-blue: hsl(208, 49%, 24%);
+    /* Neutral */
+    --text-white: hsl(0, 0%, 100%);
+    --grayish-blue: hsl(207, 13%, 34%);
+    --dark-black-blue: hsl(240, 10%, 16%);
+    /* Gradient */
+    --gradient-light-red: hsl(13, 100%, 72%);
+    --gradient-red: hsl(353, 100%, 62%);
+    --gradient-gray-blue: hsl(237, 17%, 21%);
+    --gradient-dark-blue: hsl(237, 23%, 32%);
+
+    /* TYPOGRAPHY */
+    --pattern-size: 1rem;
+    --family-overpass: 'Overpass';
+    --family-ubuntu: 'Ubuntu';
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
